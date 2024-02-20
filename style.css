@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px ;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    position: relative;
+    width: 100%;
+    background-color: #333333;
+    padding: 25px 25%;
+}
+
+#header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 2%;
+}
+
+.header-contacts {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 11px;
+    left: 65%;
+    font-size: 15px;
+    width: 200px;
+    line-height: 25px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.phone-icon, .email-icon {
+    filter: invert(1);
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+}
+
+.email-icon {
+    width: 22px;
+    height: 22px;
+}
+
+#intro {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    text-align: center;
+    padding: 150px;
+    background-image: url("content/1642628306_41-krot-info-p-neironnie-seti-art-74 (1).jpg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+#intro h2 {
+    font-weight:bolder;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+#intro p {
+    font-size: 30px;
+    margin: 0 20%;
+}
+
+#main-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#about {
+    background-color: #e6e6e6;
+    padding: 40px 10%;
+    line-height: 25px;
+}
+
+#about h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#about-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#about-text, #about-achievements {
+    min-width: 45%;
+    width: 45%;
+}
+
+#about-text {
+    line-height: 60px;
+    font-size: 20px;
+}
+
+#about-achievements {
+    margin-top: 80px;
+    font-size: 25px;
+    font-weight: bolder;
+    list-style-type: none;
+    line-height: 40px;
+}
+
+#about-achievements p{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.checkmark {
+    margin: 0 20px;
+    width: 40px;
+    height: 40px;
+}
+
+#services {
+    text-align: center;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 40px 10%;
+}
+
+.services-header {
+    position: absolute;
+    text-align: center;
+}
+
+.service-block {
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0px 0px 50px 10px rgba(0,0,0,0.2);
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+    margin: 80px 15px 20px;
+}
+
+.service-block p{
+    position: absolute;
+    top: 200px;
+    padding: 0 15px;
+}
+
+.service-block img {
+    margin-top: 30px;
+    height: 150px;
+    width: 150px;
+}
+
+#services p {
+    margin-top: 20px;
+}
+
+#more {
+    background-image: url(content/1622799339_25-phonoteka_org-p-neironnaya-set-art-krasivo-28\ \(1\).jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    line-height: 25px;
+    background-color: #ffffff;
+    padding: 40px 10%;
+}
+
+#more h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.info-btn {
+    background-color: white;
+    box-shadow: 0px 0px 50px 20px rgba(0, 0, 0, 0.2);
+    font-size: 22px;
+    font-weight:bold;
+    margin: 0 10%;
+    padding-top: 15px;
+}
+
+.info-btn p {
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+.info {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 15px;
+    padding-left: 30px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease-out, padding-bottom 0.9s;
+}
+
+.info.show {
+    max-height: 150px;
+    padding-bottom: 20px;
+}
+
+#staff {
+    text-align: center;
+    background-color: #e6e6e6;
+    padding: 40px 10%;
+}
+
+.staff-container {
+    display: flex;
+    justify-content: center;
+}
+
+.staff-block-top, .staff-block-bot {
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0px 0px 50px 10px rgba(0,0,0,0.2);
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+    margin: 40px 4% 20px;
+}
+
+.staff-block-top p {
+    margin-top: 20px;
+}
+
+#staff img {
+    margin: 40px 0 10px;
+    height: 200px;
+}
+
+#contacts {
+    background-color: #ffffff;
+    padding: 40px 10%;
+}
+
+#contacts h1 {
+    text-align: center;
+}
+
+#footer {
+    font-size: 14px;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    position: relative; 
+    width: 100%;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #cccccc;
+}
+
+form input[type="submit"] {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
